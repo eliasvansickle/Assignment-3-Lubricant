@@ -42,3 +42,20 @@ blockquote, q {
 	}
 
 /*====================MY CODE BELOW======================================*/
+
+* {
+	outline: 1px dotted red;
+}
+
+	#wrapper {
+		background-color: black;
+		max-width: 940px;
+		min-height: 600px;
+		margin: 0 auto;
+	}
+		#header {
+			background-color: gray;
+			min-width: 940px;
+			min-height: 100px;
+
+		}
