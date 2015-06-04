@@ -55,7 +55,7 @@ blockquote, q {
 			min-height: 100px;
 		}
 			div.tophead {
-				background-color: rgb(230,230,230);
+				background: linear-gradient(rgb(220,220,220),rgb(244,244,244),rgb(220,220,220));
 				max-width: 940px;
 				min-height: 60px;
 			}
@@ -71,10 +71,26 @@ blockquote, q {
 
 				}
 			div.topnav {
-				background-color: green;
+				background: linear-gradient(rgb(230,230,230), rgb(190,190,190),rgb(230,230,230));
 				max-width: 940px;
 				min-height: 30px;
 			}
+				div.topnav ul li {
+					display: inline-block;
+					vertical-align: top;
+					padding:10px 20px;
+					border-right: 1px solid white;
+				}
+				div.topnav ul li a {
+					color: rgb(86,74,74);
+					text-decoration: none;
+					font-size: 11.5px;
+					font-weight: bold;
+				}
+				li.home {
+					margin-left: 30px;
+					border-left: 1px solid white;
+				}
 
 
 
