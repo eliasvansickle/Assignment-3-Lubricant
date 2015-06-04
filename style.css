@@ -7,7 +7,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
-	outline: 0;
+	outline: 1px dotted red;
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -43,10 +43,6 @@ blockquote, q {
 
 /*====================MY CODE BELOW======================================*/
 
-* {
-	outline: 1px dotted red;
-}
-
 	#wrapper {
 		background-color: black;
 		max-width: 940px;
@@ -57,5 +53,45 @@ blockquote, q {
 			background-color: gray;
 			min-width: 940px;
 			min-height: 100px;
-
 		}
+			div.tophead {
+				background-color: rgb(230,230,230);
+				max-width: 940px;
+				min-height: 60px;
+			}
+				div.tophead img {
+					display: inline-block;
+					vertical-align: top;
+				}
+				div.tophead h1 {
+					display: inline-block;
+					vertical-align: top;
+					font-weight: bolder;
+					margin: 30px 35px 0px 296px;
+
+				}
+			div.topnav {
+				background-color: green;
+				max-width: 940px;
+				min-height: 30px;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
