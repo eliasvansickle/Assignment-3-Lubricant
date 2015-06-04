@@ -55,7 +55,76 @@ blockquote, q {
 	}
 		#header {
 			background-color: gray;
-			min-width: 940px;
+			max-width: 940px;
 			min-height: 100px;
 
 		}
+		#middle {
+			/*background-color: red;*/
+			max-width: 940px;
+			min-height: 250px;
+			padding: 10px 30px 0px 30px;
+		}
+			div.leftmid {
+				background-color: lightblue;
+				width: 355px;
+				min-height: 245px;
+				display: inline-block;
+				vertical-align: top;
+				margin-right: 15px;
+			}
+			div.rightmid {
+				background-color: yellow;
+				width: 505px;
+				min-height: 245px;
+				display: inline-block;
+				vertical-align: top;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
