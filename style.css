@@ -86,11 +86,28 @@ blockquote, q {
 			min-height: 275px;
 		}
 			div.bottomheader {
-				background-color: red;
+				/*background-color: red;*/
 				max-width: 880px;
 				min-height: 20px;
 				margin: 0 auto;
+				padding: 8px 0px;
 			}
+				div.bottomheader img {
+					height: 15px;
+					width: 40px;
+					margin-left: 10px;
+					margin-top: 1px;
+					display: inline-block;
+					vertical-align: top;
+					border-radius: 3px;
+				}
+				div.bottomheader p {
+					display: inline-block;
+					vertical-align: top;
+					font-size: 11px;
+					line-height: 20px;
+					color: rgb(252,198,0);
+				}
 			div.bottomcontent {
 				/*background-color: blue;*/
 				max-width: 880px;
@@ -98,13 +115,24 @@ blockquote, q {
 				margin: 0 auto;
 			}
 				div.bottomfarleft {
-					background-color: yellow;
+					background-color: white;
 					width: 205px;
 					min-height: 230px;
 					display: inline-block;
 					vertical-align: top;
 					margin-right: 15px;
 				}
+					div.bottomfarleft h2 {
+
+					}
+					div.bottomfarleft img {
+						width: 100%;
+						height: 90px;
+
+					}
+					div.bottomfarleft p {
+
+					}
 				div.bottommidleft {
 					background-color: yellow;
 					width: 205px;
