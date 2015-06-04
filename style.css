@@ -50,12 +50,12 @@ blockquote, q {
 		margin: 0 auto;
 	}
 		#header {
-			background-color: gray;
+			background: linear-gradient(rgb(220,220,220),rgb(244,244,244),rgb(220,220,220));
 			min-width: 940px;
 			min-height: 100px;
+			padding-bottom: 25px;
 		}
 			div.tophead {
-				background: linear-gradient(rgb(220,220,220),rgb(244,244,244),rgb(220,220,220));
 				max-width: 940px;
 				min-height: 60px;
 			}
