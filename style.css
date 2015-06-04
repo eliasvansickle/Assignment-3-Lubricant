@@ -60,8 +60,8 @@ blockquote, q {
 
 		}
 		#middle {
-			/*background-color: red;*/
-			max-width: 940px;
+			/*background-color: red;
+*/			max-width: 940px;
 			min-height: 250px;
 			padding: 10px 30px 0px 30px;
 		}
@@ -80,6 +80,55 @@ blockquote, q {
 				display: inline-block;
 				vertical-align: top;
 			}
+		#bottom {
+			/*background-color: green;*/
+			max-width: 940px;
+			min-height: 275px;
+		}
+			div.bottomheader {
+				background-color: red;
+				max-width: 880px;
+				min-height: 20px;
+				margin: 0 auto;
+			}
+			div.bottomcontent {
+				/*background-color: blue;*/
+				max-width: 880px;
+				min-height: 230px;
+				margin: 0 auto;
+			}
+				div.bottomfarleft {
+					background-color: yellow;
+					width: 205px;
+					min-height: 230px;
+					display: inline-block;
+					vertical-align: top;
+					margin-right: 15px;
+				}
+				div.bottommidleft {
+					background-color: yellow;
+					width: 205px;
+					min-height: 230px;
+					display: inline-block;
+					vertical-align: top;
+					margin-right: 15px;
+				}
+				div.bottommidright {
+					background-color: yellow;
+					width: 205px;
+					min-height: 230px;
+					display: inline-block;
+					vertical-align: top;
+					margin-right: 15px;
+				}
+				div.bottomright {
+					background-color: yellow;
+					width: 205px;
+					min-height: 230px;
+					display: inline-block;
+					vertical-align: top;
+				}
+
 
 
 
