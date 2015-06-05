@@ -92,8 +92,8 @@ blockquote, q {
 					border-left: 1px solid white;
 				}
 		#middle {
-			/*background-color: red;*/
-			max-width: 940px;
+			/*background-color: red;
+*/			max-width: 940px;
 			min-height: 250px;
 			padding: 10px 30px 0px 30px;
 		}
@@ -112,70 +112,98 @@ blockquote, q {
 				display: inline-block;
 				vertical-align: top;
 			}
-				div.rightmid h2 {
+		#bottom {
+			/*background-color: green;*/
+			max-width: 940px;
+			min-height: 275px;
+		}
+			div.bottomheader {
+				/*background-color: red;*/
+				max-width: 880px;
+				min-height: 20px;
+				margin: 0 auto;
+				padding: 8px 0px;
+			}
+				div.bottomheader img {
+					height: 15px;
+					width: 40px;
+					margin-left: 10px;
+					margin-top: 1px;
+					display: inline-block;
+					vertical-align: top;
+					border-radius: 3px;
+				}
+				div.bottomheader p {
+					display: inline-block;
+					vertical-align: top;
+					font-size: 11px;
+					line-height: 20px;
+					color: rgb(252,198,0);
+				}
+			div.bottomcontent {
+				/*background-color: blue;*/
+				max-width: 880px;
+				min-height: 230px;
+				margin: 0 auto;
+			}
+				div.bottomcontent h4 {
 					background: linear-gradient(rgb(249,210,84),rgb(242,190,22),rgb(249,210,84));
+					padding: 5px 0px 5px 12px;
+					font-size: 12px;
 					font-weight: bold;
-					padding: 5px 0px 5px 10px;
 				}
-				#heritage {
-					color:white;
-					background: none;
-					padding: 15px 0px 15px 20px;
+				div.bottomcontent img {
+					width: 100%;
+					height: 90px;
+
 				}
-				div.rightmid p {
-					color:white;
-					font-size: 13.5px;
-					padding: 0px 0px 0px 20px;
+				div.bottomcontent p {
+					width: 170px;
+					font-size: 11px;
+					margin-left: 13px;
+					margin-top: 13px;
 				}
-				p.pride {
-					margin-top: 15px;
+				div.bottomcontent a {
+					background-color: rgb(252,198,0);
+					display: inline-block;
+					text-decoration: none;
+					color:black;
+					font-size: 11px;
+					font-weight: bold;
+					padding: 3px 10px;
+					border: 1px solid black;
+					border-radius: 30px 100px 100px 30px;
+					margin: 15px 0px 0px 85px;
+				}
+				div.bottomfarleft {
+					background-color: white;
+					width: 205px;
+					min-height: 230px;
+					display: inline-block;
+					vertical-align: top;
+					margin-right: 15px;
+				}
+				div.bottommidleft {
+					background-color: white;
+					width: 205px;
+					min-height: 230px;
+					display: inline-block;
+					vertical-align: top;
+					margin-right: 15px;
+				}
+				div.bottommidright {
+					background-color: white;
+					width: 205px;
+					min-height: 230px;
+					display: inline-block;
+					vertical-align: top;
+					margin-right: 15px;
+				}
+				div.bottomright {
+					background-color: white;
+					width: 205px;
+					min-height: 230px;
+					display: inline-block;
+					vertical-align: top;
 				}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> middle
