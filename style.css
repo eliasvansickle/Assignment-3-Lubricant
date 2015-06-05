@@ -114,6 +114,35 @@ blockquote, q {
 				min-height: 230px;
 				margin: 0 auto;
 			}
+				div.bottomcontent h4 {
+					background: linear-gradient(rgb(249,210,84),rgb(242,190,22),rgb(249,210,84));
+					padding: 5px 0px 5px 12px;
+					font-size: 12px;
+					font-weight: bold;
+				}
+				div.bottomcontent img {
+					width: 100%;
+					height: 90px;
+
+				}
+				div.bottomcontent p {
+					width: 170px;
+					font-size: 11px;
+					margin-left: 13px;
+					margin-top: 13px;
+				}
+				div.bottomcontent a {
+					background-color: rgb(252,198,0);
+					display: inline-block;
+					text-decoration: none;
+					color:black;
+					font-size: 11px;
+					font-weight: bold;
+					padding: 3px 10px;
+					border: 1px solid black;
+					border-radius: 30px 100px 100px 30px;
+					margin: 15px 0px 0px 85px;
+				}
 				div.bottomfarleft {
 					background-color: white;
 					width: 205px;
@@ -122,19 +151,8 @@ blockquote, q {
 					vertical-align: top;
 					margin-right: 15px;
 				}
-					div.bottomfarleft h2 {
-						
-					}
-					div.bottomfarleft img {
-						width: 100%;
-						height: 90px;
-
-					}
-					div.bottomfarleft p {
-
-					}
 				div.bottommidleft {
-					background-color: yellow;
+					background-color: white;
 					width: 205px;
 					min-height: 230px;
 					display: inline-block;
@@ -142,7 +160,7 @@ blockquote, q {
 					margin-right: 15px;
 				}
 				div.bottommidright {
-					background-color: yellow;
+					background-color: white;
 					width: 205px;
 					min-height: 230px;
 					display: inline-block;
@@ -150,7 +168,7 @@ blockquote, q {
 					margin-right: 15px;
 				}
 				div.bottomright {
-					background-color: yellow;
+					background-color: white;
 					width: 205px;
 					min-height: 230px;
 					display: inline-block;
